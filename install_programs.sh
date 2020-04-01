@@ -30,6 +30,7 @@ yay -S --noconfirm jabref
 yay -S --noconfirm jdk8-openjdk # tuxguitar dependency
 yay -S --noconfirm jdownloader2
 # yay -S --noconfirm jq # Installed by balena-etcher
+yay -S --noconfirm kaccounts-integration
 yay -S --noconfirm kcharselect
 yay -S --noconfirm kicad
 yay -S --noconfirm kio-gdrive
@@ -38,6 +39,7 @@ echo "KIO GDrive Usage: https://community.kde.org/KIO_GDrive#Usage"
 
 yay -S --noconfirm krename
 yay -S --noconfirm ktikz
+yay -S --noconfirm libkgapi
 yay -S --noconfirm librecad
 yay -S --noconfirm lxsplit
 yay -S --noconfirm mp3wrap
