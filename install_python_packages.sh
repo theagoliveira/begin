@@ -37,6 +37,13 @@ pipx inject buku flask_paginate
 pipx inject buku flask_wtf
 pipx inject buku arrow
 
+python -m pip install -U ebooklib --user
+python -m pip install -U feedparser --user
+python -m pip install -U youtube_dl --user
+python -m pip install -U buku --user
+python -m pip install -U pytz --user
+python -m pip install -U wget --user
+
 asdf reshim python 3.8.0
 
 install_c_kernel --user
