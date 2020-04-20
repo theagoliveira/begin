@@ -39,6 +39,8 @@ echo "KIO GDrive Usage: https://community.kde.org/KIO_GDrive#Usage"
 
 yay -S --noconfirm krename
 yay -S --noconfirm ktikz
+yay -S --noconfirm libffi
+yay -S --noconfirm libffi6
 yay -S --noconfirm libkgapi
 yay -S --noconfirm librecad
 yay -S --noconfirm lxsplit
@@ -78,7 +80,9 @@ echo "Spotifyd configuration: https://github.com/Spotifyd/spotifyd#configuration
 yay -S --noconfirm terminator
 yay -S --noconfirm tree
 yay -S --noconfirm tuxguitar
+yay -S --noconfirm wmctrl
 yay -S --noconfirm woeusb-git
+yay -S --noconfirm xdotool
 
 # SysPat
 
