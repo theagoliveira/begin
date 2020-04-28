@@ -3,16 +3,29 @@
 python -m pip install --user pipx
 python -m pipx ensurepath
 
+python -m pip install -U beautifulsoup4 --user
+python -m pip install -U buku --user
+python -m pip install -U certifi --user
+python -m pip install -U cryptography --user
+python -m pip install -U ebooklib --user
+python -m pip install -U feedparser --user
+python -m pip install -U flask --user
+python -m pip install -U lxml --user
+python -m pip install -U matplotlib --user
+python -m pip install -U numpy --user
+python -m pip install -U pyqtgraph --user
+python -m pip install -U python-dateutil --user
+python -m pip install -U pytz --user
+python -m pip install -U reprint --user
+python -m pip install -U robobrowser --user
+python -m pip install -U urllib3 --user
+python -m pip install -U wget --user
+python -m pip install -U youtube_dl --user
+
 pipx install autopep8
-pipx install lxml # No apps associated
-pipx install matplotlib --include-deps # No apps associated
-pipx install numpy
 pipx install pycodestyle
 pipx install Pygments
 pipx install pylint
-pipx install pyqtgraph --include-deps # No apps associated
-pipx install reprint # No apps associated
-pipx install robobrowser --include-deps # No apps associated
 pipx install jupyter --include-deps
 pipx install jupyter-c-kernel
 pipx inject jupyter-c-kernel jupyter
@@ -23,10 +36,6 @@ pipx install youtube-dl
 
 # BUKU
 
-pipx install certifi  # No apps associated
-pipx install urllib3  # No apps associated
-pipx install cryptography  # No apps associated
-pipx install beautifulsoup4  # No apps associated
 pipx install buku
 pipx inject buku flask
 pipx inject buku flask.cli
@@ -36,13 +45,6 @@ pipx inject buku flask_bootstrap
 pipx inject buku flask_paginate
 pipx inject buku flask_wtf
 pipx inject buku arrow
-
-python -m pip install -U ebooklib --user
-python -m pip install -U feedparser --user
-python -m pip install -U youtube_dl --user
-python -m pip install -U buku --user
-python -m pip install -U pytz --user
-python -m pip install -U wget --user
 
 asdf reshim python 3.8.0
 
