@@ -88,3 +88,9 @@ yay -S --noconfirm xdotool
 
 yay -S --noconfirm libmagick6
 yay -S --noconfirm imagemagick
+
+# NPM Apps
+
+npm install --global tldr
+npm install --global fkill-cli
+npm update --global --verbose
