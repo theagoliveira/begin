@@ -31,6 +31,18 @@ rm -f 'JetBrainsMono.zip'
 wget -O "$HOME/.fonts/LigaDroidSansMono.ttf" "https://github.com/abogoyavlensky/DroidCode/raw/master/LigaDroidSansMono.ttf"
 fc-cache -fv
 
+# AILERON
+wget -O "aileron.zip" "https://dotcolon.net/download/fonts/aileron_0102.zip"
+unzip -j "aileron.zip" "*.otf" -d "$HOME/.fonts"
+fc-cache -fv
+rm -f "aileron.zip"
+
+# SCUNTHORPE
+wget -O "scunthorpe-sans.zip" "https://vole.wtf/scunthorpe-sans/scunthorpe-sans.zip?v=2"
+unzip -j "scunthorpe-sans.zip" "*.otf" -d "$HOME/.fonts"
+fc-cache -fv
+rm -f "scunthorpe-sans.zip"
+
 # https://www.reddit.com/r/archlinux/comments/5r5ep8/make_your_arch_fonts_beautiful_easily/
 sudo ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 sudo ln -s /etc/fonts/conf.avail/10-sub-pixel-rgb.conf /etc/fonts/conf.d
