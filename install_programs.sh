@@ -83,6 +83,7 @@ yay -S --noconfirm tuxguitar
 yay -S --noconfirm wmctrl
 yay -S --noconfirm woeusb-git
 yay -S --noconfirm xdotool
+yay -S --noconfirm zeal
 
 # SysPat
 
