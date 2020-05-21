@@ -13,7 +13,7 @@ shopt -s globstar
 files=$(for n in "$HOME"/.{config/{kdeglobals,kglobalshortcutsrc,khotkeysrc,plasma-org.kde.plasma.desktop-appletsrc,kwinrc},local/share/kxmlgui5/{katepart/katepart5,konsole/{konsole,session},kwrite/kwrite}ui.rc}; do if [[ -f "$n" ]]; then printf '%s\n' "$n"; fi; done)
 tar czf keyboard_shortcuts.tar.gz $files
 
-files=$(for n in {"$HOME"/{.config,.local/share/applications},/etc/xdg,/usr{/local,}/share/applications}/{kde-,}mimeapps.list; do if [[ -f "$n" ]]; then printf '%s\n' "$n"; fi; done)
+files=$(for n in {"$HOME"/{.config,.local/share/applications},/etc/xdg,/usr{/local,}/share/applications}/{kde-,}{mimeapps.list,mimeinfo.cache}; do if [[ -f "$n" ]]; then printf '%s\n' "$n"; fi; done)
 tar czf mimeapps_list.tar.gz $files
 
 files=$(for n in "$HOME"/{.oh-my-zsh/plugins/web-search/web-search.plugin.zsh,.pythonrc,.p10k.zsh,.zshrc,.config/{plasmarc,spotifyd/spotifyd.conf,terminator/config,sublime-text-3/Packages/User/SyncSettings.sublime-settings,mps-youtube/config,mpv/{input.conf,mpv.conf},yakuakerc},.local/share/konsole/{default.dark.colorscheme,Shell.profile}}; do if [[ -f "$n" ]]; then printf '%s\n' "$n"; fi; done)
