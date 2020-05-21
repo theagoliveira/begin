@@ -21,6 +21,7 @@ yay -S --noconfirm fff
 yay -S --noconfirm freetype2-cleartype
 yay -S --noconfirm gimp
 yay -S --noconfirm gimp-fourier
+yay -S --noconfirm gnome-keyring
 yay -S --noconfirm gnuplot
 yay -S --noconfirm hardinfo
 yay -S --noconfirm heroku-cli
@@ -70,6 +71,7 @@ echo "PostgreSQL initial configuration: https://wiki.archlinux.org/index.php/Pos
 yay -S --noconfirm pstoedit
 yay -S --noconfirm qbittorrent
 yay -S --noconfirm qpdf
+yay -S --noconfirm qtkeychain
 yay -S --noconfirm recode
 yay -S --noconfirm reflector
 yay -S --noconfirm shellcheck
