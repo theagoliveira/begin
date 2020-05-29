@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 yay -S --noconfirm alsa-utils
+yay -S --noconfirm bat
 yay -S --noconfirm broot
 yay -S --noconfirm byzanz
 yay -S --noconfirm calibre
@@ -57,6 +58,7 @@ yay -S --noconfirm pdfpc
 yay -S --noconfirm pdftk
 yay -S --noconfirm perl-xml-xpath
 yay -S --noconfirm piper
+yay -S --noconfirm playonlinux
 yay -S --noconfirm postgresql
 yay -S --noconfirm postgresql-libs
 
@@ -82,6 +84,10 @@ echo "Spotifyd configuration: https://github.com/Spotifyd/spotifyd#configuration
 yay -S --noconfirm terminator
 yay -S --noconfirm tree
 yay -S --noconfirm tuxguitar
+yay -S --noconfirm wine-gecko
+yay -S --noconfirm wine-mono
+yay -S --noconfirm winetricks
+yay -S --noconfirm wkhtmltopdf
 yay -S --noconfirm wmctrl
 yay -S --noconfirm woeusb-git
 yay -S --noconfirm xdotool
@@ -94,6 +100,13 @@ yay -S --noconfirm imagemagick
 
 # NPM Apps
 
-npm install --global tldr
-npm install --global fkill-cli
+sudo npm install --global tldr
+sudo npm install --global fkill-cli
+sudo npm install --global chrome-headless-render-pdf
 npm update --global --verbose
+
+# WINE
+
+winetricks corefonts
+winetricks dotnet45
+winetricks winhttp
