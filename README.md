@@ -2,12 +2,6 @@
 
 Script used to install everything in a Manjaro/Windows 10 dual boot fresh install
 
-## What to backup before formatting
-
-- Text editors settings
-- Shortcuts, mimeapps lists and configs with `sh backup_configs.sh`
-- Dolphin configs
-
 ## Linux (Manjaro KDE)
 
 ### Steps

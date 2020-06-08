@@ -20,14 +20,17 @@ yay -S --noconfirm etcher
 yay -S --noconfirm fbreader
 yay -S --noconfirm fff
 yay -S --noconfirm freetype2-cleartype
+yay -S --noconfirm gcc-fortran
 yay -S --noconfirm gimp
 yay -S --noconfirm gimp-fourier
 yay -S --noconfirm gnome-keyring
 yay -S --noconfirm gnuplot
+yay -S --noconfirm google-chrome
 yay -S --noconfirm hardinfo
 yay -S --noconfirm heroku-cli
 yay -S --noconfirm html-xml-utils
 yay -S --noconfirm inkscape
+yay -S --noconfirm itch
 yay -S --noconfirm jabref
 yay -S --noconfirm jdk8-openjdk # tuxguitar dependency
 yay -S --noconfirm jdownloader2
@@ -74,9 +77,12 @@ yay -S --noconfirm pstoedit
 yay -S --noconfirm qbittorrent
 yay -S --noconfirm qpdf
 yay -S --noconfirm qtkeychain
+yay -S --noconfirm r
 yay -S --noconfirm recode
+yay -S --noconfirm redshift
 yay -S --noconfirm reflector
 yay -S --noconfirm shellcheck
+yay -S --noconfirm skypeforlinux-stable-bin
 yay -S --noconfirm spotifyd
 
 echo "Spotifyd configuration: https://github.com/Spotifyd/spotifyd#configuration"
