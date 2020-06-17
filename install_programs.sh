@@ -48,6 +48,7 @@ yay -S --noconfirm libffi
 yay -S --noconfirm libffi6
 yay -S --noconfirm libkgapi
 yay -S --noconfirm librecad
+yay -S --noconfirm lorem-ipsum-generator
 yay -S --noconfirm lxsplit
 yay -S --noconfirm mp3wrap
 yay -S --noconfirm mpv
