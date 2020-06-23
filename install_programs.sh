@@ -3,6 +3,7 @@
 yay -S --noconfirm alsa-utils
 yay -S --noconfirm bat
 yay -S --noconfirm broot
+yay -S --noconfirm btfs
 yay -S --noconfirm byzanz
 yay -S --noconfirm calibre
 yay -S --noconfirm clang
@@ -17,8 +18,11 @@ sudo gpasswd -a thiago docker
 
 yay -S --noconfirm dropbox
 yay -S --noconfirm etcher
+yay -S --noconfirm exa
 yay -S --noconfirm fbreader
+yay -S --noconfirm fd
 yay -S --noconfirm fff
+yay -S --noconfirm fzf
 yay -S --noconfirm freetype2-cleartype
 yay -S --noconfirm gcc-fortran
 yay -S --noconfirm gimp
@@ -29,6 +33,7 @@ yay -S --noconfirm google-chrome
 yay -S --noconfirm hardinfo
 yay -S --noconfirm heroku-cli
 yay -S --noconfirm html-xml-utils
+yay -S --noconfirm httpie
 yay -S --noconfirm inkscape
 yay -S --noconfirm itch
 yay -S --noconfirm jabref
@@ -54,6 +59,7 @@ yay -S --noconfirm mp3wrap
 yay -S --noconfirm mpv
 yay -S --noconfirm mupdf
 yay -S --noconfirm mupdf-tools
+yay -S --noconfirm ncdu
 yay -S --noconfirm neofetch
 yay -S --noconfirm nnn
 yay -S --noconfirm obs-studio
