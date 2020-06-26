@@ -48,6 +48,7 @@ yay -S --noconfirm kio-gdrive
 echo "KIO GDrive Usage: https://community.kde.org/KIO_GDrive#Usage"
 
 yay -S --noconfirm krename
+yay -S --noconfirm krita
 yay -S --noconfirm ktikz
 yay -S --noconfirm libffi
 yay -S --noconfirm libffi6
