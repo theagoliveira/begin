@@ -7,3 +7,4 @@ git config --global credential.username "theagoliveira"
 
 # SysPat
 git config --local user.email "email"
+git config --local credential.username "tcavalcante"
