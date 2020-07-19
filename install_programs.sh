@@ -22,8 +22,9 @@ yay -S --noconfirm exa
 yay -S --noconfirm fbreader
 yay -S --noconfirm fd
 yay -S --noconfirm fff
-yay -S --noconfirm fzf
+yay -S --noconfirm freerdp
 yay -S --noconfirm freetype2-cleartype
+yay -S --noconfirm fzf
 yay -S --noconfirm gcc-fortran
 yay -S --noconfirm gimp
 yay -S --noconfirm gimp-fourier
@@ -39,6 +40,7 @@ yay -S --noconfirm itch
 yay -S --noconfirm jabref
 yay -S --noconfirm jdk8-openjdk # tuxguitar dependency
 yay -S --noconfirm jdownloader2
+yay -S --noconfirm john # FIX: https://forum.manjaro.org/t/getting-pdf2john-pl-to-work/95140
 # yay -S --noconfirm jq # Installed by balena-etcher
 yay -S --noconfirm kaccounts-integration
 yay -S --noconfirm kcharselect
@@ -63,10 +65,12 @@ yay -S --noconfirm mupdf-tools
 yay -S --noconfirm ncdu
 yay -S --noconfirm neofetch
 yay -S --noconfirm nnn
+yay -S --noconfirm noisetorch
 yay -S --noconfirm obs-studio
 yay -S --noconfirm pandoc
 yay -S --noconfirm pdfpc
 yay -S --noconfirm pdftk
+yay -S --noconfirm perl-image-exiftool
 yay -S --noconfirm perl-xml-xpath
 yay -S --noconfirm piper
 yay -S --noconfirm playonlinux
@@ -89,6 +93,7 @@ yay -S --noconfirm r
 yay -S --noconfirm recode
 yay -S --noconfirm redshift
 yay -S --noconfirm reflector
+yay -S --noconfirm remmina # CONFIG: https://askubuntu.com/questions/74713/how-can-i-copy-paste-files-via-rdp-in-kubuntu
 yay -S --noconfirm shellcheck
 yay -S --noconfirm skypeforlinux-stable-bin
 yay -S --noconfirm spotifyd
