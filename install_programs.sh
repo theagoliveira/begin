@@ -19,6 +19,7 @@ sudo gpasswd -a thiago docker
 yay -S --noconfirm dropbox
 yay -S --noconfirm etcher
 yay -S --noconfirm exa
+yay -S --noconfirm fawkes
 yay -S --noconfirm fbreader
 yay -S --noconfirm fd
 yay -S --noconfirm fff
@@ -67,7 +68,9 @@ yay -S --noconfirm neofetch
 yay -S --noconfirm nnn
 yay -S --noconfirm noisetorch
 yay -S --noconfirm obs-studio
+yay -S --noconfirm ookla-speedtest-bin
 yay -S --noconfirm pandoc
+yay -S --noconfirm parallel
 yay -S --noconfirm pdfpc
 yay -S --noconfirm pdftk
 yay -S --noconfirm perl-image-exiftool

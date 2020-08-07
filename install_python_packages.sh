@@ -3,6 +3,7 @@
 python -m pip install --user pipx
 python -m pipx ensurepath
 
+python -m pip install -U ansi --user
 python -m pip install -U beautifulsoup4 --user
 python -m pip install -U buku --user
 python -m pip install -U certifi --user
