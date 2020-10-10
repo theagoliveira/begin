@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
 
+yay -S --noconfirm audacity
 yay -S --noconfirm alsa-utils
+yay -S --noconfirm alacritty
+yay -S --noconfirm anki
+yay -S --noconfirm android-studio
 yay -S --noconfirm bat
 yay -S --noconfirm broot
 yay -S --noconfirm btfs
 yay -S --noconfirm byzanz
+yay -S --noconfirm caffeine
 yay -S --noconfirm calibre
 yay -S --noconfirm clang
 yay -S --noconfirm cpdf-bin
@@ -17,8 +22,14 @@ sudo systemctl enable docker.service
 sudo gpasswd -a thiago docker
 
 yay -S --noconfirm dropbox
+yay -S --noconfirm emby-server
+
+sudo systemctl enable emby-server.service
+sudo systemctl start emby-server.service
+
 yay -S --noconfirm etcher
 yay -S --noconfirm exa
+yay -S --noconfirm farbfeld
 yay -S --noconfirm fawkes
 yay -S --noconfirm fbreader
 yay -S --noconfirm fd
@@ -29,8 +40,10 @@ yay -S --noconfirm fzf
 yay -S --noconfirm gcc-fortran
 yay -S --noconfirm gimp
 yay -S --noconfirm gimp-fourier
+yay -S --noconfirm git-delta
 yay -S --noconfirm gnome-keyring
 yay -S --noconfirm gnuplot
+yay -S --noconfirm go-mtpfs-git
 yay -S --noconfirm google-chrome
 yay -S --noconfirm hardinfo
 yay -S --noconfirm heroku-cli
@@ -58,6 +71,7 @@ yay -S --noconfirm libffi6
 yay -S --noconfirm libkgapi
 yay -S --noconfirm librecad
 yay -S --noconfirm lorem-ipsum-generator
+yay -S --noconfirm lutris
 yay -S --noconfirm lxsplit
 yay -S --noconfirm mp3wrap
 yay -S --noconfirm mpv
@@ -93,11 +107,14 @@ yay -S --noconfirm qbittorrent
 yay -S --noconfirm qpdf
 yay -S --noconfirm qtkeychain
 yay -S --noconfirm r
+yay -S --noconfirm reaper-bin
 yay -S --noconfirm recode
 yay -S --noconfirm redshift
 yay -S --noconfirm reflector
 yay -S --noconfirm remmina # CONFIG: https://askubuntu.com/questions/74713/how-can-i-copy-paste-files-via-rdp-in-kubuntu
+yay -S --noconfirm ripgrep
 yay -S --noconfirm shellcheck
+yay -S --noconfirm shotcut
 yay -S --noconfirm skypeforlinux-stable-bin
 yay -S --noconfirm spotifyd
 
@@ -106,6 +123,7 @@ echo "Spotifyd configuration: https://github.com/Spotifyd/spotifyd#configuration
 yay -S --noconfirm terminator
 yay -S --noconfirm tree
 yay -S --noconfirm tuxguitar
+yay -S --noconfirm unrar
 yay -S --noconfirm wine-gecko
 yay -S --noconfirm wine-mono
 yay -S --noconfirm winetricks
@@ -114,6 +132,7 @@ yay -S --noconfirm wmctrl
 yay -S --noconfirm woeusb-git
 yay -S --noconfirm xdotool
 yay -S --noconfirm zeal
+yay -S --noconfirm zoxide
 
 # SysPat
 
@@ -125,6 +144,7 @@ yay -S --noconfirm imagemagick
 sudo npm install --global tldr
 sudo npm install --global fkill-cli
 sudo npm install --global chrome-headless-render-pdf
+sudo npm install --global how-2
 npm update --global --verbose
 
 # WINE
