@@ -86,6 +86,7 @@ yay -S --noconfirm ookla-speedtest-bin
 yay -S --noconfirm pandoc
 yay -S --noconfirm parallel
 yay -S --noconfirm pdfpc
+yay -S --noconfirm pdfgrep
 yay -S --noconfirm pdftk
 yay -S --noconfirm perl-image-exiftool
 yay -S --noconfirm perl-xml-xpath
