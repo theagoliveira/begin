@@ -34,6 +34,7 @@ yay -S --noconfirm fawkes
 yay -S --noconfirm fbreader
 yay -S --noconfirm fd
 yay -S --noconfirm fff
+yay -S --noconfirm findimagedupes
 yay -S --noconfirm freerdp
 yay -S --noconfirm freetype2-cleartype
 yay -S --noconfirm fzf
@@ -45,6 +46,7 @@ yay -S --noconfirm gnome-keyring
 yay -S --noconfirm gnuplot
 yay -S --noconfirm go-mtpfs-git
 yay -S --noconfirm google-chrome
+yay -S --noconfirm gron
 yay -S --noconfirm hardinfo
 yay -S --noconfirm heroku-cli
 yay -S --noconfirm html-xml-utils
@@ -73,6 +75,7 @@ yay -S --noconfirm librecad
 yay -S --noconfirm lorem-ipsum-generator
 yay -S --noconfirm lutris
 yay -S --noconfirm lxsplit
+yay -S --noconfirm manjaro-printer
 yay -S --noconfirm mp3wrap
 yay -S --noconfirm mpv
 yay -S --noconfirm mupdf
@@ -81,8 +84,11 @@ yay -S --noconfirm ncdu
 yay -S --noconfirm neofetch
 yay -S --noconfirm nnn
 yay -S --noconfirm noisetorch
+yay -S --noconfirm obs-linuxbrowser
 yay -S --noconfirm obs-studio
+yay -S --noconfirm onefetch
 yay -S --noconfirm ookla-speedtest-bin
+yay -S --noconfirm ox-bin
 yay -S --noconfirm pandoc
 yay -S --noconfirm parallel
 yay -S --noconfirm pdfpc
@@ -121,6 +127,7 @@ yay -S --noconfirm spotifyd
 
 echo "Spotifyd configuration: https://github.com/Spotifyd/spotifyd#configuration"
 
+yay -S --noconfirm telegram-desktop-bin
 yay -S --noconfirm terminator
 yay -S --noconfirm tree
 yay -S --noconfirm tuxguitar
