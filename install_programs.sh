@@ -7,6 +7,7 @@ yay -S --noconfirm anki
 yay -S --noconfirm android-studio
 yay -S --noconfirm bat
 yay -S --noconfirm broot
+yay -S --noconfirm browsh-bin
 yay -S --noconfirm btfs
 yay -S --noconfirm byzanz
 yay -S --noconfirm caffeine
@@ -16,6 +17,8 @@ yay -S --noconfirm cpdf-bin
 yay -S --noconfirm czmq
 yay -S --noconfirm discord
 yay -S --noconfirm docker
+yay -S --noconfirm downgrade
+yay -S --noconfirm droidcam
 
 sudo systemctl start docker.service
 sudo systemctl enable docker.service
@@ -29,6 +32,7 @@ sudo systemctl start emby-server.service
 
 yay -S --noconfirm etcher
 yay -S --noconfirm exa
+yay -S --noconfirm exercism-bin
 yay -S --noconfirm farbfeld
 yay -S --noconfirm fawkes
 yay -S --noconfirm fbreader
@@ -38,6 +42,7 @@ yay -S --noconfirm findimagedupes
 yay -S --noconfirm freerdp
 yay -S --noconfirm freetype2-cleartype
 yay -S --noconfirm fzf
+yay -S --noconfirm gbacklight
 yay -S --noconfirm gcc-fortran
 yay -S --noconfirm gimp
 yay -S --noconfirm gimp-fourier
@@ -90,6 +95,7 @@ yay -S --noconfirm onefetch
 yay -S --noconfirm ookla-speedtest-bin
 yay -S --noconfirm ox-bin
 yay -S --noconfirm pandoc
+yay -S --noconfirm pavucontrol
 yay -S --noconfirm parallel
 yay -S --noconfirm pdfpc
 yay -S --noconfirm pdfgrep
@@ -99,6 +105,7 @@ yay -S --noconfirm perl-xml-xpath
 yay -S --noconfirm piper
 yay -S --noconfirm playonlinux
 yay -S --noconfirm postgresql
+# yay -S --noconfirm postgresql-12 # SysPat
 yay -S --noconfirm postgresql-libs
 
 echo "PostgreSQL initial configuration: https://wiki.archlinux.org/index.php/PostgreSQL#Initial_configuration"
@@ -120,6 +127,7 @@ yay -S --noconfirm redshift
 yay -S --noconfirm reflector
 yay -S --noconfirm remmina # CONFIG: https://askubuntu.com/questions/74713/how-can-i-copy-paste-files-via-rdp-in-kubuntu
 yay -S --noconfirm ripgrep
+yay -S --noconfirm seahorse
 yay -S --noconfirm shellcheck
 yay -S --noconfirm shotcut
 yay -S --noconfirm skypeforlinux-stable-bin
