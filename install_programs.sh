@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
+autoload zmv # zsh mass rename program
+
 yay -S --noconfirm audacity
 yay -S --noconfirm alsa-utils
 yay -S --noconfirm alacritty
 yay -S --noconfirm anki
 yay -S --noconfirm android-studio
+yay -S --noconfirm atomicparsley
 yay -S --noconfirm bat
 yay -S --noconfirm broot
 yay -S --noconfirm browsh-bin
@@ -12,6 +15,7 @@ yay -S --noconfirm btfs
 yay -S --noconfirm byzanz
 yay -S --noconfirm caffeine
 yay -S --noconfirm calibre
+yay -S --noconfirm cbonsai-git
 yay -S --noconfirm clang
 yay -S --noconfirm cpdf-bin
 yay -S --noconfirm czmq
@@ -25,6 +29,7 @@ sudo systemctl enable docker.service
 sudo gpasswd -a thiago docker
 
 yay -S --noconfirm dropbox
+yay -S --noconfirm eclipse-java-bin
 yay -S --noconfirm emby-server
 
 sudo systemctl enable emby-server.service
@@ -44,6 +49,7 @@ yay -S --noconfirm freetype2-cleartype
 yay -S --noconfirm fzf
 yay -S --noconfirm gbacklight
 yay -S --noconfirm gcc-fortran
+yay -S --noconfirm gibo
 yay -S --noconfirm gimp
 yay -S --noconfirm gimp-fourier
 yay -S --noconfirm git-delta
@@ -65,6 +71,7 @@ yay -S --noconfirm john # FIX: https://forum.manjaro.org/t/getting-pdf2john-pl-t
 # yay -S --noconfirm jq # Installed by balena-etcher
 yay -S --noconfirm kaccounts-integration
 yay -S --noconfirm kcharselect
+yay -S --noconfirm keepassxc
 yay -S --noconfirm kicad
 yay -S --noconfirm kio-gdrive
 
@@ -89,6 +96,7 @@ yay -S --noconfirm ncdu
 yay -S --noconfirm neofetch
 yay -S --noconfirm nnn
 yay -S --noconfirm noisetorch
+yay -S --noconfirm nyxt-browser-git
 yay -S --noconfirm obs-linuxbrowser
 yay -S --noconfirm obs-studio
 yay -S --noconfirm onefetch
@@ -131,12 +139,14 @@ yay -S --noconfirm seahorse
 yay -S --noconfirm shellcheck
 yay -S --noconfirm shotcut
 yay -S --noconfirm skypeforlinux-stable-bin
-yay -S --noconfirm spotifyd
+yay -S --noconfirm spotifyd-full-git
 
 echo "Spotifyd configuration: https://github.com/Spotifyd/spotifyd#configuration"
 
+yay -S --noconfirm tageditor
 yay -S --noconfirm telegram-desktop-bin
 yay -S --noconfirm terminator
+yay -S --noconfirm ticker
 yay -S --noconfirm tree
 yay -S --noconfirm tuxguitar
 yay -S --noconfirm unrar

@@ -10,6 +10,7 @@ python -m pip install -U certifi --user
 python -m pip install -U clipboard --user
 python -m pip install -U cryptography --user
 python -m pip install -U ebooklib --user
+python -m pip install -U eyed3 --user
 python -m pip install -U feedparser --user
 python -m pip install -U flask --user
 python -m pip install -U handcalcs --user
