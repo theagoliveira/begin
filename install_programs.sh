@@ -63,6 +63,8 @@ yay -S --noconfirm heroku-cli
 yay -S --noconfirm html-xml-utils
 yay -S --noconfirm httpie
 yay -S --noconfirm inkscape
+yay -S --noconfirm insomnia-bin
+yay -S --noconfirm intellij-idea-ce
 yay -S --noconfirm itch
 yay -S --noconfirm jabref
 yay -S --noconfirm jdk8-openjdk # tuxguitar dependency
@@ -115,6 +117,7 @@ yay -S --noconfirm playonlinux
 yay -S --noconfirm postgresql
 # yay -S --noconfirm postgresql-12 # SysPat
 yay -S --noconfirm postgresql-libs
+yay -S --noconfirm postman-bin
 
 echo "PostgreSQL initial configuration: https://wiki.archlinux.org/index.php/PostgreSQL#Initial_configuration"
 # sudo -iu postgres
