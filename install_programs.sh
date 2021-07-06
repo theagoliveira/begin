@@ -16,6 +16,7 @@ yay -S --noconfirm byzanz
 yay -S --noconfirm caffeine
 yay -S --noconfirm calibre
 yay -S --noconfirm cbonsai-git
+yay -S --noconfirm cheese
 yay -S --noconfirm clang
 yay -S --noconfirm cpdf-bin
 yay -S --noconfirm czmq
@@ -58,6 +59,7 @@ yay -S --noconfirm gnuplot
 yay -S --noconfirm go-mtpfs-git
 yay -S --noconfirm google-chrome
 yay -S --noconfirm gron
+yay -S --noconfirm guvcview
 yay -S --noconfirm hardinfo
 yay -S --noconfirm heroku-cli
 yay -S --noconfirm html-xml-utils
@@ -181,3 +183,8 @@ npm update --global --verbose
 winetricks corefonts
 winetricks dotnet45
 winetricks winhttp
+
+# GIT
+
+cd "$HOME/git" || exit
+git clone https://github.com/r0oth3x49/udemy-dl.git
