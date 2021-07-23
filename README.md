@@ -4,9 +4,9 @@ Script used to install everything in a Manjaro/Windows 10 dual boot fresh instal
 
 ## Linux (Manjaro KDE)
 
-### Steps
+### General Steps
 
-01. Check **Set time and date automatically** and **Hardware clock in local time zone** (dual boot with Windows 10)
+01. Check **Set time and date automatically** and **Hardware clock in local time zone** (for dual boot with Windows 10)
 01. Edit grub settings with `sudo nano /etc/default/grub` and set `GRUB_TIMEOUT=25`
 01. Unmount the Files partition and run the commands on `auto_mount_files.sh` (use ls to print the commands before unmounting)
 01. `sh create_new_folders.sh`
@@ -31,8 +31,9 @@ Script used to install everything in a Manjaro/Windows 10 dual boot fresh instal
 01. `sh install_ruby_gems.sh`
 01. `sh install_python_packages.sh`
 01. `sh global_git_config.sh`
+01. `sh install_mobile_dev.sh` (optional, for Android/Flutter development)
 
-### Programs
+### Steps for Specific Apps
 
 #### Firefox
 
@@ -131,32 +132,38 @@ import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe0
   - `/usr/share/applications/kde-mimeapps.list`
   - `/usr/local/share/applications/mimeapps.list`
   - `/usr/share/applications/mimeapps.list`
-- powerlevel10k: `$HOME/.p10k.zsh`
-- spotifyd: `$HOME/.config/spotifyd/spotifyd.conf`
-- terminator: `$HOME/.config/terminator/config`
-- zsh: `$HOME/.zshrc`
+  - `/usr/share/applications/mimeinfo.cache`
+- App Configs
+  - `$HOME/.oh-my-zsh/plugins/web-search/web-search.plugin.zsh`
+  - `$HOME/.pythonrc`
+  - `$HOME/.p10k.zsh`
+  - `$HOME/.zshrc`
+  - `$HOME/.ticker.yaml`
+  - `$HOME/.config/yay/config.json`
+  - `$HOME/.config/plasmarc`
+  - `$HOME/.config/spotifyd/spotifyd.conf`
+  - `$HOME/.config/terminator/config`
+  - `$HOME/.config/sublime-text-3/Packages/User/SyncSettings.sublime-settings`
+  - `$HOME/.config/mps-youtube/config`
+  - `$HOME/.config/mpv/input.conf`
+  - `$HOME/.config/mpv/mpv.conf`
+  - `$HOME/.config/yakuakerc`
+  - `$HOME/.local/share/konsole/default.dark.colorscheme`
+  - `$HOME/.local/share/konsole/Shell.profile`
+  - `/etc/default/grub`
+  - `/etc/pacman.conf`
+  - `$HOME/.config/dolphinrc`
+  - `$HOME/.local/share/kxmlgui5/dolphin/dolphinui.rc`
+  - `$HOME/.local/share/user-places.xbel`
 
 ## Windows 10
 
 ### Steps
 
-Check [kelps/repave-scripts](https://github.com/kelps/repave-scripts/blob/master/install.bat)
+01. Install [Chocolatey](https://community.chocolatey.org/)
+01. Install apps listed in the PowerShell script `install_programs.ps1` (most of them using Chocolatey, a few manually)
 
-## Optional
-
-### Using stylistic sets in VSCode
-
-- Install extension [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) ([GitHub](https://github.com/be5invis/vscode-custom-css))
-- Create file `$HOME/Apps/vscode/stylistic_sets.css`
-- Uncomment the following lines in settings JSON
-  - `"vscode_custom_css.imports": ["file:///home/thiago/Apps/vscode/stylistic_sets.css"],`
-  - `"vscode_custom_css.policy": true,`
-- Run `sudo chown -R $(whoami) /opt/visual-studio-code/`
-- Restart VSCode
-- Activate command "Reload Custom CSS and JS"
-- Restart VSCode
-
-## References
+## Troubleshooting
 
 ### alsa-utils
 
