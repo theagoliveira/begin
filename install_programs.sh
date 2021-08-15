@@ -140,6 +140,7 @@ yay -S --noconfirm redshift
 yay -S --noconfirm reflector
 yay -S --noconfirm remmina # CONFIG: https://askubuntu.com/questions/74713/how-can-i-copy-paste-files-via-rdp-in-kubuntu
 yay -S --noconfirm ripgrep
+yay -S --noconfirm ripgrep-all
 yay -S --noconfirm seahorse
 yay -S --noconfirm shellcheck
 yay -S --noconfirm shotcut
