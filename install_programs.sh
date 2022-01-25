@@ -5,7 +5,7 @@ autoload zmv # zsh mass rename program
 yay -S --noconfirm audacity
 yay -S --noconfirm alsa-utils
 yay -S --noconfirm alacritty
-yay -S --noconfirm anki
+yay -S --noconfirm anki-official-binary-bundle
 yay -S --noconfirm android-studio
 yay -S --noconfirm atomicparsley
 yay -S --noconfirm bat
@@ -20,6 +20,7 @@ yay -S --noconfirm cheese
 yay -S --noconfirm clang
 yay -S --noconfirm cpdf-bin
 yay -S --noconfirm czmq
+yay -S --noconfirm ddgr
 yay -S --noconfirm discord
 yay -S --noconfirm docker
 yay -S --noconfirm downgrade
@@ -45,8 +46,9 @@ yay -S --noconfirm fbreader
 yay -S --noconfirm fd
 yay -S --noconfirm fff
 yay -S --noconfirm findimagedupes
+yay -S --noconfirm fq
 yay -S --noconfirm freerdp
-yay -S --noconfirm freetype2-cleartype
+yay -S --noconfirm freetype2
 yay -S --noconfirm fzf
 yay -S --noconfirm gbacklight
 yay -S --noconfirm gcc-fortran
@@ -58,13 +60,17 @@ yay -S --noconfirm gnome-keyring
 yay -S --noconfirm gnuplot
 yay -S --noconfirm go-mtpfs-git
 yay -S --noconfirm google-chrome
+yay -S --noconfirm googler
+yay -S --noconfirm grabc
 yay -S --noconfirm gron
 yay -S --noconfirm guvcview
 yay -S --noconfirm hardinfo
 yay -S --noconfirm heroku-cli
 yay -S --noconfirm html-xml-utils
+yay -S --noconfirm htmlq
 yay -S --noconfirm httpie
 yay -S --noconfirm inkscape
+yay -S --noconfirm insect
 yay -S --noconfirm insomnia-bin
 yay -S --noconfirm intellij-idea-ce
 yay -S --noconfirm itch
@@ -92,12 +98,14 @@ yay -S --noconfirm lorem-ipsum-generator
 yay -S --noconfirm lutris
 yay -S --noconfirm lxsplit
 yay -S --noconfirm manjaro-printer
+yay -S --noconfirm miller
 yay -S --noconfirm mp3wrap
 yay -S --noconfirm mpv
 yay -S --noconfirm mupdf
 yay -S --noconfirm mupdf-tools
 yay -S --noconfirm ncdu
 yay -S --noconfirm neofetch
+yay -S --noconfirm ngrok
 yay -S --noconfirm nnn
 yay -S --noconfirm noisetorch
 yay -S --noconfirm nyxt-browser-git
@@ -145,14 +153,18 @@ yay -S --noconfirm seahorse
 yay -S --noconfirm shellcheck
 yay -S --noconfirm shotcut
 yay -S --noconfirm skypeforlinux-stable-bin
+yay -S --noconfirm speedcrunch
 yay -S --noconfirm spotifyd-full-git
 
 echo "Spotifyd configuration: https://github.com/Spotifyd/spotifyd#configuration"
 
+yay -S --noconfirm sysz
 yay -S --noconfirm tageditor
 yay -S --noconfirm telegram-desktop-bin
 yay -S --noconfirm terminator
 yay -S --noconfirm ticker
+yay -S --noconfirm toggldesktop
+yay -S --noconfirm translate-shell
 yay -S --noconfirm tree
 yay -S --noconfirm tuxguitar
 yay -S --noconfirm unrar
@@ -162,7 +174,9 @@ yay -S --noconfirm winetricks
 yay -S --noconfirm wkhtmltopdf
 yay -S --noconfirm wmctrl
 yay -S --noconfirm woeusb-git
+yay -S --noconfirm xautomation
 yay -S --noconfirm xdotool
+yay -S --noconfirm xorg-xinput
 yay -S --noconfirm zeal
 yay -S --noconfirm zoxide
 
@@ -177,6 +191,8 @@ sudo npm install --global tldr
 sudo npm install --global fkill-cli
 sudo npm install --global chrome-headless-render-pdf
 sudo npm install --global how-2
+sudo npm install --global leetcode-cli
+sudo npm install --global libgen-downloader
 npm update --global --verbose
 
 # WINE

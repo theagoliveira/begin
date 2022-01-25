@@ -4,8 +4,10 @@
 yay -S --noconfirm awesome-terminal-fonts      # fonts/icons for powerlines
 yay -S --noconfirm nerd-fonts-complete         # Iconic font aggregator, collection, and patcher. 40+ patched fonts, over 3,600 glyph/icons, includes popular collections such as Font Awesome & fonts such as Hack
 yay -S --noconfirm font-victor-mono            # A programming font with cursive italics and ligatures
+yay -S --noconfirm ipa-fonts                   # Japanese outline Mincho fonts implementing IVS compliant with Hanyo-Denshi collection (based on IPAex Mincho fonts)
 yay -S --noconfirm otf-fira-code               # Monospaced font with programming ligatures
 yay -S --noconfirm otf-hasklig                 # A font with symbol ligatures, intended for Haskell code
+yay -S --noconfirm otf-latin-modern            # Improved version of Computer Modern fonts as used in LaTeX
 yay -S --noconfirm powerline-fonts             # patched fonts for powerline
 yay -S --noconfirm gnu-free-fonts              # A free family of scalable outline fonts
 yay -S --noconfirm ttf-hack                    # A hand groomed and optically balanced typeface based on Bitstream Vera Mono.
@@ -14,6 +16,7 @@ yay -S --noconfirm ttf-iosevka                 # A slender monospace typeface. S
 yay -S --noconfirm ttf-ms-fonts                # Core TTF Fonts from Microsoft
 yay -S --noconfirm ttf-font-awesome            # Iconic font designed for Bootstrap
 yay -S --noconfirm ttf-ibm-plex                # IBM Plex Mono, Sans, and Serif
+yay -S --noconfirm ttf-linux-libertine         # Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage
 
 # INPUT MONO
 wget -O "Input-Font.zip" "http://input.fontbureau.com/build/?fontSelection=fourStyleFamily&regular=InputMono-Regular&italic=InputMono-Italic&bold=InputMono-Bold&boldItalic=InputMono-BoldItalic&a=ss&g=ss&i=topserif&l=topserif&zero=slash&asterisk=0&braces=straight&preset=default&line-height=1.2&accept=I+do&email="
